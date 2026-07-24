@@ -1,9 +1,6 @@
 Portfolio Optimization Algorithms Simulation
 This document outlines the implementation plan for simulating the algorithms presented in the paper "Large-scale portfolio optimization on a trapped-ion quantum computer".
 
-User Review Required
-IMPORTANT
-
 The paper simulates a 250-asset universe, with clusters up to 64 qubits. Simulating more than ~20 qubits classically on a standard machine is extremely resource-intensive and often impossible without a supercomputer. To run the simulation in a reasonable amount of time, I propose scaling down the problem:
 
 Asset Universe: 20-30 assets (instead of 250).
