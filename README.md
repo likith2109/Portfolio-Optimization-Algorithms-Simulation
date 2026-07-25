@@ -11,12 +11,12 @@ We will create a set of Python scripts to implement the entire pipeline. The cod
 Data Collection
 [NEW] data_collection.py
 Uses yfinance to fetch daily closing prices for a subset of S&P 500 stocks over a specified period.
-Computes daily log-returns, expected returns vector ($\mu$), covariance matrix ($C$), and correlation matrix ($\mathscr{C}$).
+Computes daily log-returns, expected returns vector ($\mu$), covariance matrix ($C$), and correlation matrix .
 Algorithm 1: Hardware-Aware Clustering
 [NEW] clustering.py
-Implements RMT denoising (Marchenko-Pastur spectral separation) to extract the structured correlation matrix ($\mathscr{C}_{\star}$).
+Implements RMT denoising (Marchenko-Pastur spectral separation) to extract the structured correlation matrix .
 Uses the Louvain method for initial community detection.
-Implements the correlation-guided greedy splitting rule to enforce the hardware qubit limit ($Q_{max}$).
+Implements the correlation-guided greedy splitting rule to enforce the hardware qubit limit ($Q_{max}.
 Algorithm 2 & 3: BF-DCQO Quantum Optimizer
 [NEW] quantum_optimizer.py
 Implements the QUBO/Ising mapping for the cardinality-constrained portfolio optimization problem.
